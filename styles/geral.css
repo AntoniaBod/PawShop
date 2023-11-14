@@ -1,13 +1,13 @@
 :root{
     --azul: #6EB3D0;
-    --verde: #71c24e;
+    --verde: #3e951a;
     --rosa: #F7B6D2;
     --laranja: #F4A623;
-    --preto: #000000;
+    --preto: #424242;
     --branco: #FFFFFF;
 }
 
-header, footer{
+header,footer{
     background-color: var(--azul);
 }
 
@@ -21,24 +21,20 @@ header, footer{
 }
 
 .card button{
-    background-color: #F7B6D2;
+    background-color: var(--rosa);
     color: var(--preto);
     border: none;
     border-radius: 0%;
 }
 
 .card button:hover{
-    background-color: #be5582;
+    background-color: #b46286;
 }
-
 .card button:active{
-    background-color: var(--rosa)!important;
-    color: var(--branco)!important;
+    background-color: var(--branco)!important;
+    color: var(--rosa)!important;
 }
 
-#banner{
-    background-image: url(../images/imgBanner.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-} 
-
+form input{
+    border: 1px solid black!important;
+}
